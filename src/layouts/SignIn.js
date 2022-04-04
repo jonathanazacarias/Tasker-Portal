@@ -11,8 +11,8 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Theme from '../theme';
+import { ThemeProvider } from '@mui/material/styles';
+import Theme from '../components/theme';
 
 function Copyright(props) {
     return (

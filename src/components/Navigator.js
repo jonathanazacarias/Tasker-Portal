@@ -11,7 +11,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 import TimerIcon from '@mui/icons-material/Timer';
 import GroupIcon from '@mui/icons-material/Group';
 import MapsHomeWorkIcon from '@mui/icons-material/MapsHomeWork';
-import { BottomNavigation } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const categories = [
     {
@@ -39,7 +39,7 @@ const itemCategory = {
 };
 
 export default function Navigator(props) {
-    const { ...other } = props;
+    const { window, ...other } = props;
 
     return (
         <Drawer variant="permanent" {...other}>
