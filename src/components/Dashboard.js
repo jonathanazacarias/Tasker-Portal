@@ -3,27 +3,12 @@ import { ThemeProvider } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
 import Navigator from './Navigator';
-import Content from './Content';
 import Users from '../pages/Users'
-import Theme from './theme'
+import Theme from '../theme'
+import Copyright from './Copyright';
+import { gql } from "@apollo/client";
 //  import Header from './Header';
-
-function Copyright() {
-    return (
-        <Typography variant="body2" color="text.secondary" align="center">
-            {'Copyright © '}
-            <Link color="inherit" href="/">
-                Tasker
-            </Link>{' '}
-            {new Date().getFullYear()}.
-        </Typography>
-    );
-}
-
-
 
 const drawerWidth = 256;
 
